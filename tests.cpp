@@ -1,11 +1,17 @@
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
-#include "HighScores.h"
+#include "Student.h"
+// #include "Fraction.h"
 
-TEST_CASE("step 2") {
-    HighScores hs;
+TEST_CASE("student-step3") {
+    Student aStudent;
 
-    SECTION("Object has no items") {
-        REQUIRE(hs.getNumScores() == 0);
+    SECTION("get major") {
+        REQUIRE(aStudent.getMajor() == "Undecided");
+    }
+    SECTION("get gpa") {
+
     }
 }
+
+

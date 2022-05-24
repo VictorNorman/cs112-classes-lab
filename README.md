@@ -1,2 +1,2 @@
-# cs112-highscores-assignment
+# cs112-classes-lab
 
