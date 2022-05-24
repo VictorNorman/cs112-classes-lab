@@ -1,5 +1,3 @@
 *.o
 *.gch
-highScores
-a.out
-HighScores.cpp
+.vscode/*
